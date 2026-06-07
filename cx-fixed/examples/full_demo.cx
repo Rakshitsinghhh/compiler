@@ -1,0 +1,27 @@
+// Full feature demo
+
+func add(a, b) {
+    return a + b;
+}
+
+func multiply(a, b) {
+    return a + a;
+}
+
+int x = 10;
+int y = 20;
+
+if (x < y) {
+    print(x + y);
+} else {
+    print(0);
+}
+
+int count = 0;
+while (count < 3) {
+    count = count + 1;
+}
+print(count);
+
+int r = add(15, 27);
+print(r);
